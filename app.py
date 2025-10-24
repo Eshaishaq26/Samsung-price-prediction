@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your trained polynomial regression model
-model = joblib.load('best_Polynomial_model.pkl')
+model = joblib.load('best_model.pkl')
 
 st.title("Samsung Mobile Price Prediction App")
 
